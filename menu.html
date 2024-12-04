@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Banju" content="width=device-width, initial-scale=1.0">
+    <title>BANJU</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="src/main.js" defer></script>
+    <script src="src/menu.js" defer></script>
+
+    <!-- Animation site https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/463cabd4d9.js" crossorigin="anonymous"></script>
+
+    <!-- Goggle Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quintessential&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quintessential&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Adobe Font-->
+    <link rel="stylesheet" href="https://use.typekit.net/zzy8vjq.css">
+</head>
+
+<body>
+    <script> AOS.init();</script>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="img/banju__header__logo.png" alt="logo" />
+            <h1 class="header__logo__title">
+                <a href="#">BANJU</a>
+            </h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="index.html">HOME</a></li>
+                <li><a class="header__menu__item" href="index.html">ABOUT</a></li>
+                <li><a class="header__menu__item" href="menu.html">MENU</a></li>
+                <li><a class="header__menu__item" href="contact.html">CONTACT</a>
+            </ul>
+        </nav>
+        <div class="header__contact">
+            <ul class="header__contact__links">
+                <!--이메일, 인스타, 전화-->
+                <li>
+                    <a class="contact__link banju__insta"
+                        href="https://www.instagram.com/banju_2024_?igsh=ejNrbXg2aWNuZ3Jw" target="_blank"
+                        title="my instagram link">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="contact__link banju__email"
+                        href="mailto:Banjuvancouver@gmail.com?subject:Hi Banju I would like to get reservation"
+                        target="_blank" title="my github link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="contact__link banju__call" href="tel:604-336-0164" title="calling link">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__booktable">
+            <button class="header__booktable__btn">Book a table</button>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="section__menu__banner">
+            <div class="banner">
+                <h1>Menu</h1>
+            </div>
+        </section>
+        <section class="section__menu">
+
+            <div class="lunch__menu">
+                <img src="img/menu/lunch-menu.jpg">
+            </div>
+            <div class="sashimi__menu">
+                <img src="img/menu/sashimi-menu.jpg">
+            </div>
+            <div class="dinner__menu">
+                <img src="img/menu/dinner-menu.jpg">
+            </div>
+            <div class="drinks__menu">
+                <img src="img/menu/drink-menu.jpg">
+            </div>
+        </section>
+
+        <!-- Footer section-->
+        <footer class="body__footer max__container" data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <div class="body__footer__section">
+                <div class="location">
+                    <h2>Location</h2>
+                    <p>827 Bute St.<br>Vancouver, BC V6E 3Y4</p>
+                </div>
+                <div class="hour">
+                    <h2>Hour</h2>
+                    <p><strong>Sunday - wednesday</strong><br>17:00 - 01:00</p>
+                    <p><strong>Thursday - Saturday</strong><br>17:00 - 02:00</p>
+                </div>
+                <div class="social">
+                    <h2>Social</h2>
+                    <ul class="contact__links">
+                        <!--이메일, 인스타, 전화-->
+                        <li>
+                            <a class="contact__link banju__insta"
+                                href="https://www.instagram.com/banju_2024_?igsh=ejNrbXg2aWNuZ3Jw" target="_blank"
+                                title="my instagram link">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact__link banju__email"
+                                href="mailto:Banjuvancouver@gmail.com?subject:Hi Banju I would like to get reservation"
+                                target="_blank" title="my github link">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact__link banju__call" href="tel:604-336-0164" title="calling link">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">
+                Copyright © 2024 Banju | Powered by Evan Lee
+            </p>
+        </footer>
+
+    </main>
+</body>
+
+</html>
