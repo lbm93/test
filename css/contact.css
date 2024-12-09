@@ -1,11 +1,12 @@
 .contact__first__section {
   width: 100%;
   height: 600px;
-  background-image: url("../img/contact__main__logo.jpg");
+  background-image: url("../img/Category/Contact.JPG");
   background-size: cover;
   position: relative;
   isolation: isolate;
 }
+/*
 .contact__first__section::after {
   content: "";
   position: absolute;
@@ -13,7 +14,7 @@
   z-index: -1;
   inset: 0;
   opacity: 0.3;
-}
+}*/
 
 .contact__first__section__container {
   width: 100%;
@@ -59,24 +60,41 @@
 .contact__second__section__container__webform__des {
   margin-left: 15%;
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .contact__second__section__container__webform__des h1 {
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 4rem;
+  margin: 0px;
+  margin-bottom: 30px;
 }
 .contact__second__section__container__webform__des p {
   font-family: "Quintessential", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 0px;
 }
-
+.contact__second__section__container__webform__des #des1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.contact__second__section__container__webform__des #des2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.contact__second__section__container__webform__des #des3,
+#des4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 .contact__second__section__container__webform {
   width: 50%;
   display: flex;
