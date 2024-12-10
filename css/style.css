@@ -7,9 +7,10 @@
 @import "contact.css";
 @import "menu.css";
 @import "moveaboutus.css";
+@import "aboutus.css";
 
 /* Global */
-:root {
+: root {
   /* App Colors */
   --color-primary: var(--color-blue);
   --color-primary-variant: var(--color-gray);

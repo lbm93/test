@@ -5,6 +5,7 @@
   background-size: cover;
   position: relative;
   isolation: isolate;
+  margin-bottom: 150px;
 }
 /*
 .section__menu__banner::after {

@@ -119,6 +119,14 @@
 textarea {
   background-color: black;
 }
+
+.pure-group #name,
+#name,
+#phone,
+#email,
+#message {
+  border: 1px solid white;
+}
 .gform {
 }
 

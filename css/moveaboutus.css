@@ -12,9 +12,12 @@
   width: 40%;
   height: 100%;
   text-align: left;
+  margin: 0px;
+  overflow: auto;
+  margin-left: 50px;
 }
 
-.move-aboutus-img-container {
+.move-aboutus-img-containr {
   padding: 15px;
   width: 30%;
   height: 100%;
@@ -27,8 +30,10 @@
   object-fit: cover;
 }
 .move-aboutus-des-container h1 {
+  width: 100%;
+  height: auto;
   margin: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: normal;
@@ -36,8 +41,8 @@
 }
 
 .move-aboutus-des-container p {
+  width: 100%;
   margin: 0px;
-  margin-bottom: 8px;
   font-family: "Quintessential", serif;
   font-weight: 100;
   font-style: normal;
@@ -46,16 +51,20 @@
 }
 
 .move-aboutus-des-container #des1 {
+  margin-bottom: 15px;
+  height: auto;
   font-size: 1.5rem;
 }
 
 .move-aboutus-des-container #des2 {
-  margin-bottom: 80px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
 }
 .move-aboutus-btn {
   font-size: 2rem;
   padding: 10px;
-  width: 200p;
+  width: 200px;
   height: 80px;
   border: 1px solid white;
   background-color: black;
