@@ -118,6 +118,7 @@
 .pure-group input,
 textarea {
   background-color: black;
+  color: white;
 }
 
 .pure-group #name,
