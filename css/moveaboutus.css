@@ -37,7 +37,7 @@
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 5em;
 }
 
 .move-aboutus-des-container p {
@@ -46,20 +46,20 @@
   font-family: "Quintessential", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 2rem;
   align-items: center;
 }
 
 .move-aboutus-des-container #des1 {
   margin-bottom: 15px;
   height: auto;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .move-aboutus-des-container #des2 {
   width: 100%;
   height: auto;
   margin-bottom: 50px;
+  font-size: 2em;
 }
 .move-aboutus-btn {
   font-size: 2rem;
