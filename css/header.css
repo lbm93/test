@@ -1,29 +1,23 @@
 .header {
+  width: 100%;
   position: fixed;
   top: 0;
   display: flex;
-  width: 100%;
   height: 120px;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem;
   z-index: 6;
   background-color: transparent;
-  margin: 0px;
-  padding: 0px;
 }
 
 .header__logo {
-  margin-left: 15px;
   display: flex;
   align-items: center;
   gap: 8px;
   width: 20%;
-  padding: 10px;
 }
 
 .header__nav {
-  padding: 10px;
   width: 40%;
   font-size: 1.5rem;
   font-family: "urbane-rounded", sans-serif;
@@ -79,31 +73,25 @@
 }
 
 .header__contact {
-  padding: 10px;
   width: 20%;
-  width: 200px;
   height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .header__contact__links {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  padding: 0;
-  gap: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   font-size: 2rem;
   list-style: none;
   margin: 0;
 }
 
 .header__booktable {
-  padding: 10px;
   width: 20%;
-  width: 200px;
-  margin-right: 20px;
+  text-align: center;
 }
 
 .header__booktable__btn {

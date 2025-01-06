@@ -64,14 +64,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .contact__second__section__container__webform__des h1 {
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3vw;
   margin: 0px;
   margin-bottom: 30px;
 }
@@ -83,16 +83,16 @@
   margin: 0px;
 }
 .contact__second__section__container__webform__des #des1 {
-  font-size: 1.5rem;
+  font-size: 1.1vw;
   margin-bottom: 10px;
 }
 .contact__second__section__container__webform__des #des2 {
-  font-size: 2rem;
+  font-size: 1.6vw;
   margin-bottom: 30px;
 }
 .contact__second__section__container__webform__des #des3,
 #des4 {
-  font-size: 1.5rem;
+  font-size: 1vw;
   margin-bottom: 10px;
 }
 .contact__second__section__container__webform {

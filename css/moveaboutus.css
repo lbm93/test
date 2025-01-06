@@ -33,11 +33,11 @@
   width: 100%;
   height: auto;
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-family: "Tinos", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 5em;
+  font-size: 5vw;
 }
 
 .move-aboutus-des-container p {
@@ -50,16 +50,16 @@
 }
 
 .move-aboutus-des-container #des1 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   height: auto;
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
 .move-aboutus-des-container #des2 {
   width: 100%;
   height: auto;
   margin-bottom: 50px;
-  font-size: 2em;
+  font-size: 1.5vw;
 }
 .move-aboutus-btn {
   font-size: 2rem;
