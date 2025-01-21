@@ -76,13 +76,17 @@
   margin-bottom: 30px;
 }
 .contact__second__section__container__webform__des p {
-  font-family: "Quintessential", serif;
+  font-family: "Tinos", serif;
   font-weight: 100;
   font-style: normal;
   font-size: 2rem;
+  line-height: 45px;
   margin: 0px;
 }
 .contact__second__section__container__webform__des #des1 {
+  font-family: "Quintessential", serif;
+  font-weight: 100;
+  font-style: normal;
   font-size: 1.1vw;
   margin-bottom: 10px;
 }
@@ -94,6 +98,9 @@
 #des4 {
   font-size: 1vw;
   margin-bottom: 10px;
+  font-family: "Quintessential", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 .contact__second__section__container__webform {
   width: 50%;

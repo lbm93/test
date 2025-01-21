@@ -15,6 +15,7 @@
   align-items: center;
   gap: 8px;
   width: 20%;
+  margin-left: 20px;
 }
 
 .header__nav {
@@ -31,7 +32,7 @@
 }
 
 .header__logo__title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: "urbane-rounded", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -110,4 +111,12 @@
 .header__booktable__btn:hover {
   border-bottom: 2px solid #efeade;
   color: rgb(240, 205, 140);
+}
+
+.header__nav__toggle {
+  position: absolute;
+  right: 32px;
+  top: 24px;
+  font-size: 24px;
+  display: none;
 }
