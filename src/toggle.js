@@ -1,5 +1,12 @@
-const navbarMenu = document.querySelector('.header__menu');
-const navbarToggleBtn = document.querySelector('.header__nav__toggle');
-navbarToggleBtn.addEventListener('click', () => {
-  navbarMenu.classList.toggle('open');
+const toggleBtn = document.querySelector('.header__toggle');
+const menu = document.querySelector('.header__menu');
+
+toggleBtn.addEventListener('click', () => {
+  menu.classList.toggle('active');
+})
+
+const menuTrigger = document.querySelector('.header__toggle');
+
+menuTrigger.addEventListener('click', (event) => {
+  event.currentTarget.classList.toggle('active-1');
 });
