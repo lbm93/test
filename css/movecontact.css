@@ -66,3 +66,44 @@
   border-bottom: 2px solid #efeade;
   color: rgb(240, 205, 140);
 }
+
+@media screen and (max-width: 1366px) {
+  .section__move-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1100px;
+    margin: 0;
+    padding: 0;
+  }
+  .move-contact-img-container {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 150px;
+  }
+  .move-contact-img-container img {
+    width: 80%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .move-contact-des-container {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 150px;
+  }
+
+  .move-contact-btn {
+    display: none;
+  }
+}
