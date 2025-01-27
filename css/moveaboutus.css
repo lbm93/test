@@ -83,14 +83,6 @@
   color: rgb(240, 205, 140);
 }
 
-@media screen and (max-width: 768px) {
-  .section__aboutus-contact {
-    display: none;
-  }
-  .move-aboutus-des-container {
-    display: none;
-  }
-}
 @media screen and (max-width: 1366px) {
   .section__aboutus-contact {
     display: flex;

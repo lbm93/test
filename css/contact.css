@@ -177,3 +177,68 @@ textarea {
 .contact__second__section__container__map {
   padding: 100px;
 }
+
+@media screen and (max-width: 1366px) {
+  .contact__second__section__container {
+    margin: 0;
+    padding: 0;
+  }
+  .contact__second__section__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__second__section__container__webform__des {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__second__section__container__webform__des h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact__second__section__container__webform__des #des1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .contact__second__section__container__webform__des #des2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact__second__section__container__webform__des #des3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .contact__second__section__container__webform__des #des4 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .contact__second__section__container__webform {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .form-elements {
+    justify-content: center;
+    align-items: center;
+  }
+}
